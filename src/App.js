@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Bill, TotalCount, Header } from './components/components';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='bg h-screen'>
+      <Header />
+      <div className='grid grid-cols-2 border-2 border-transparent rounded-lg w-[900px] ml-[200px] bg-white'>
+        <Bill />
+        <TotalCount />
+      </div>
     </div>
-  );
+  )
 }
 
 export default App;
