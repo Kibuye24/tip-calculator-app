@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input {
+  text-align: end;
+  height: 40px;
+  padding-right: 10px;
+  color:  hsl(172, 67%, 45%);
+}
+
+body {
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+}
+
+.bg {
+  background-color: hsl(185, 41%, 84%);
+}
+
+.bill-text {
+  color: #ffff;
+  align-items: center;
+  font-size: larger;
+  text-align: center;
+  font-family: 'Space Mono', monospace;
+}
+
+/* - Very dark cyan: hsl(183, 100%, 15%)
+- Dark grayish cyan: hsl(186, 14%, 43%)
+- Grayish cyan: hsl(184, 14%, 56%)
+- Light grayish cyan: hsl(185, 41%, 84%)
+- Very light grayish cyan: hsl(189, 41%, 97%)
+- White: hsl(0, 0%, 100%) */
+/* hsl(172, 67%, 45%) */
+
+
+/* ### Font
+
+- Family: [Space Mono](https://fonts.google.com/specimen/Space+Mono)
+- Weights: 700 */
